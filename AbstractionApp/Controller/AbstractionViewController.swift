@@ -26,7 +26,6 @@ class AbstractionViewController: UIPageViewController, UIPageViewControllerDataS
     private func newAbstractionViewController(abstractionLevel : String) -> UIViewController
     {
         return UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "\(abstractionLevel)ViewController")
-        
     }
     
     //MARK:- Lifecycle methods
